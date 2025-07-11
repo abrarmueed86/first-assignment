@@ -157,3 +157,24 @@ textarea{
     width: 100%;
 
  }
+
+ /* footer style? */
+ footer{
+    text-align: center;
+    background-color: azure;
+    padding: 50px;
+    
+ }
+
+ footer h1{
+    font-size: 120px;
+    margin-bottom: 10px; 
+    margin-top:20px;
+
+ }
+
+ footer a{
+    text-decoration: none;
+    font-style: none;
+    margin: 0 15px; 
+ }
