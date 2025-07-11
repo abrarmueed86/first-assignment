@@ -13,7 +13,19 @@
 .text-primary{
     color: #4E47FF;
 }
- 
+  
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.title-primary{
+    font-size: 30px;
+}
 /* nav style */
 nav{
     display: flex;
@@ -25,16 +37,6 @@ nav{
     font-size: 25px;
     font-weight: 900;
 }
- 
-.btn-primary{
-    background-color: #4E47FF;
-    font-weight: bold;
-    color: white;
-    border-radius: 3px;
-    border: none;
-    padding: 10px 20px;
-}
-
 
 
 nav ul li{
@@ -66,9 +68,92 @@ header{
     display: flex;
     justify-content:  space-between;
 }
-.action-div h3{
-    font-size: 30px;
-}
+
 .action-section img{
     border-radius: 50px;
 }
+
+
+/* prod section */
+.prod-section{
+    margin: 50px 100px;
+    padding: 20px;  
+    text-align: center;
+    background-color: azure;
+    border-radius: 10px;
+    
+}
+
+
+.prod-div{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.prod-div h1{
+    font-size: 65px;
+    margin-bottom: 10px;
+}
+
+/* user section */
+
+.users-section{
+    margin: 50px 100px;
+}
+.users-section h3{
+    text-align: center;
+}
+.users-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.users-div{
+    background-color: azure;
+    padding: 20px;
+    border-radius: 10px;
+}
+.review-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.review-box img{
+    border-radius: 50%;
+}
+.review-info{
+    display:flex ;
+    flex-direction: column;
+}
+/* .lets-get-section */
+.lets-get-section{
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lets-get-section h3{
+    font-size: 70px;
+}
+form{
+    width:50% ;
+}
+
+form input{
+    width: 100%;
+    margin: 10px 0;
+    height: 30px;
+}
+
+textarea{
+    width: 100%;
+    margin: 10px 0;
+}
+
+ form button{
+    width: 100%;
+
+ }
